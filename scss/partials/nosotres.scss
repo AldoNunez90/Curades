@@ -1,0 +1,32 @@
+/*nosotres*/
+@import "./variables.scss";
+
+h2 {
+    color: tomato;
+    font-weight: bold;
+}
+span {
+    color: tomato;
+    font-weight: bold;
+}
+h4 {
+    color: whitesmoke;
+    font-weight: bold;
+}
+.alin {
+    align-self: center;
+    text-align: center;
+}
+.contFoto {
+    text-align: right;
+}
+
+.nuestra {color: whitesmoke;}
+.foto   {width: $anchoFoto*3;
+    border-radius: 100%;}
+.parrafoN {-webkit-user-modify: read-write-plaintext-only;
+font-size: $fuente/5;}
+p {
+    color: whitesmoke;
+    font-size: $fuente/6;
+}

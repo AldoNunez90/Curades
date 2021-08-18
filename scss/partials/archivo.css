@@ -1,0 +1,21 @@
+/*rock/a/tlon*/
+.rockA a, .rockB a {
+  border-radius: 10px !important;
+  margin: 1vh;
+  padding: 1vh;
+  text-align: center;
+}
+
+.rockB {
+  justify-items: center;
+}
+
+.list-group-item-action {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.rock1, .rock2 {
+  text-align: -webkit-center;
+}

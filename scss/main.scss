@@ -1,0 +1,61 @@
+@import "../scss/partials/variables.scss";
+@import "../scss/partials/nosotres.scss";
+@import "./partials/index.scss";
+@import "./partials/header.scss";
+@import "./partials/footer.scss";
+@import "./partials/contacto.scss";
+@import "./partials/articulos.scss";
+@import "./partials/archivo.scss";
+
+@media only screen and (min-width: 1200px){
+    .artic {
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .fotosNuestras {
+        display: flex;
+        justify-content: center;
+    }
+    .foto {
+        place-self: center;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    .contenedorA, .contenedorB, .contenedorC, .contenedorD {
+        width: 40vw;
+    }
+    #drcontacto {
+        width: 90vh;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .redes {
+            margin-top: 5px;
+            justify-content: space-evenly;
+        }
+        .spoti {
+           display: flex;
+           flex-direction: column;
+        }
+        #drcontacto {
+            width: inherit;
+        }
+       iframe {width: 100%;}
+       .nosotres__foto {
+           text-align: center;
+       }
+       .articulo__parrafo {
+           font-size: 1vh;
+       }
+
+}
