@@ -178,128 +178,39 @@ h3 {
 img {
   width: inherit; }
 
-.articulo__parrafo {
-  background-color: #00172f; }
-
-.imgA {
+/*animacion parrafos*/
+.artic__cuadro {
   position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .imgA:before, .imgA::after {
-    content: "";
-    position: absolute;
-    width: calc(100%/30px);
-    z-index: 1; }
-  .imgA:before {
-    left: -100%;
-    top: 10px; }
-  .imgA:after {
-    left: 100%;
-    bottom: 10px; }
-  .imgA:hover:before, .imgA:hover:after {
-    left: 15px; }
-  .imgA .contenedorA {
-    text-align: center;
-    position: absolute;
-    transition: all 1s;
-    transform: scale(1.5);
-    opacity: 0; }
-  .imgA:hover .contenedorA {
-    transform: scale(1.5);
-    opacity: 1; }
+  width: calc(100%-30px); }
 
-.imgB {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .imgB:before, .imgB::after {
-    content: "";
-    position: absolute;
-    width: calc(100%/30px);
-    z-index: 1; }
-  .imgB:before {
-    left: -100%;
-    top: 10px; }
-  .imgB:after {
-    left: 100%;
-    bottom: 10px; }
-  .imgB:hover:before, .imgB:hover:after {
-    left: 15px; }
-  .imgB .contenedorB {
-    text-align: center;
-    position: absolute;
-    transition: all 1s;
-    transform: scale(1.5);
-    opacity: 0; }
-  .imgB:hover .contenedorB {
-    transform: scale(1.5);
-    opacity: 1; }
+.artic__cuadro__img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
-.imgC {
-  position: relative;
+.artic__texto {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .imgC:before, .imgC::after {
-    content: "";
-    position: absolute;
-    width: calc(100%/30px);
-    z-index: 1; }
-  .imgC:before {
-    left: -100%;
-    top: 10px; }
-  .imgC:after {
-    left: 100%;
-    bottom: 10px; }
-  .imgC:hover:before, .imgC:hover:after {
-    left: 15px; }
-  .imgC .contenedorC {
-    text-align: center;
-    position: absolute;
-    transition: all 1s;
-    transform: scale(1.5);
-    opacity: 0; }
-  .imgC:hover .contenedorC {
-    transform: scale(1.5);
-    opacity: 1; }
+  width: 95.7%;
+  height: 0;
+  transition: .5s ease; }
 
-.imgD {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .imgD:before, .imgD::after {
-    content: "";
-    position: absolute;
-    width: calc(100%/30px);
-    z-index: 1; }
-  .imgD:before {
-    left: -100%;
-    top: 10px; }
-  .imgD:after {
-    left: 100%;
-    bottom: 10px; }
-  .imgD:hover:before, .imgD:hover:after {
-    left: 15px; }
-  .imgD .contenedorD {
-    text-align: center;
-    position: absolute;
-    transition: all 1s;
-    transform: scale(1.5);
-    opacity: 0; }
-  .imgD:hover .contenedorD {
-    transform: scale(1.5);
-    opacity: 1; }
+.artic__cuadro:hover .artic__texto {
+  height: 100%; }
 
-.txt1, .txt2, .txt3, .txt4 {
+.artic__parrafo {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  top: -4vh; }
+  width: 100%;
+  padding: 2vw; }
 
 /*rock/a/tlon*/
 .rockA a, .rockB a {
