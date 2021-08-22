@@ -14,7 +14,6 @@ h2 {
 
 span {
   color: tomato;
-  font-weight: bold;
 }
 
 h4 {
@@ -22,15 +21,17 @@ h4 {
   font-weight: bold;
 }
 
-.alin {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  text-align: center;
-}
-
 .contFoto {
-  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .nuestra {
@@ -40,6 +41,7 @@ h4 {
 .foto {
   width: 15vw;
   border-radius: 100%;
+  margin: 3vw;
 }
 
 .parrafoN {
@@ -52,8 +54,8 @@ p {
   font-size: 2.5vh;
 }
 
-h1, small {
-  color: tomato;
+h1 {
+  color: whitesmoke;
   font-weight: bold;
   top: 5vh;
   left: 2vw;
@@ -68,9 +70,9 @@ body {
   background-color: #00172a;
 }
 
-.row__proximamente {
-  color: red !important;
-  font-weight: bold;
+.badge {
+  background-color: red !important;
+  font-weight: normal;
 }
 
 * {
@@ -179,6 +181,11 @@ label {
 .btn-primary {
   background-color: #00162f;
   border-color: tomato;
+}
+
+.btn-primary:hover {
+  background-color: tomato;
+  border: transparent;
 }
 
 /*articulos*/
