@@ -12,9 +12,9 @@ span {
   color: tomato;
 }
 
-h4 {
-  color: whitesmoke;
-  font-weight: bold;
+.foto {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 .contFoto {
@@ -48,4 +48,48 @@ h4 {
 p {
   color: whitesmoke;
   font-size: 2.5vh;
+}
+
+/*efecto sobre el texto*/
+.nosotres__fotos__animadas {
+  position: relative;
+}
+
+.foto {
+  opacity: 1;
+  display: block;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.recuadro {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nosotres__fotos__animadas:hover .foto {
+  opacity: 0.3;
+}
+
+.nosotres__fotos__animadas:hover .recuadro {
+  opacity: 1;
+}
+
+.texto {
+  background-color: #00172a;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 32px;
+  border-radius: 10%;
 }
