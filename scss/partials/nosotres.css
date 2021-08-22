@@ -1,0 +1,49 @@
+/*nosotres*/
+* {
+  font-family: 'Yantramanav', sans-serif !important;
+}
+
+h2 {
+  color: tomato;
+  font-weight: bold;
+}
+
+span {
+  color: tomato;
+  font-weight: bold;
+}
+
+h4 {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.alin {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.contFoto {
+  text-align: right;
+}
+
+.nuestra {
+  color: whitesmoke;
+}
+
+.foto {
+  width: 15vw;
+  border-radius: 100%;
+}
+
+.parrafoN {
+  -webkit-user-modify: read-write-plaintext-only;
+  font-size: 3vh;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 2.5vh;
+}

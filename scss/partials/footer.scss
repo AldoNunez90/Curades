@@ -1,0 +1,28 @@
+footer {
+    background-color: black;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bi {
+    color: whitesmoke
+}
+
+.bi-facebook:hover {
+    border-radius: 100%;
+    color: #3b5998;
+    background-color: rgb(0, 23, 42);
+}
+.bi-instagram:hover {
+    border-radius: 10%;
+    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);;
+}
+.bi-twitter:hover {
+    color: rgb(29, 161, 242);
+    border-radius: 30px;
+    background-color: rgb(0, 23, 42);
+}

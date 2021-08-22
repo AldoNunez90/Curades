@@ -1,0 +1,17 @@
+/*contacto*/
+label {
+    color: whitesmoke;
+    font-weight: bold;
+}
+#drcontacto {
+   width: $altoFoto*2;
+}
+.btn-primary {
+    background-color: rgb(0, 22, 47);
+    border-color: tomato;
+    &:hover {
+        background-color: tomato;
+        border: transparent;
+    }
+    
+}

@@ -1,0 +1,14 @@
+/*contacto*/
+label {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#drcontacto {
+  width: 100vh;
+}
+
+.btn-primary {
+  background-color: #00162f;
+  border-color: tomato;
+}

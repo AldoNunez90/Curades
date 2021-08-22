@@ -1,0 +1,20 @@
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  top: 5vh;
+  left: 2vw;
+  width: auto;
+}
+
+h5 {
+  color: #ff6347;
+}
+
+body {
+  background-color: #00172a;
+}
+
+.badge {
+  background-color: red !important;
+  font-weight: normal;
+}
