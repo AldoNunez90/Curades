@@ -19,3 +19,33 @@
 .rock1, .rock2 {
   text-align: -webkit-center;
 }
+
+.list-group-item-danger {
+  background-color: #2f4538;
+  color: whitesmoke;
+}
+
+.list-group-item-danger.list-group-item-action:hover {
+  color: forestgreen !important;
+  background-color: #2f4538 !important;
+}
+
+.lista__reproduccion {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.video__container {
+  position: absolute;
+  z-index: -100;
+  width: 100vw;
+  height: 82vh;
+  overflow: hidden;
+}
+
+.video__container video {
+  position: absolute;
+  width: 95vw;
+  left: 2vw;
+}

@@ -2,9 +2,21 @@
   font-family: 'Yantramanav', sans-serif !important;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato;
+}
+
 /*nosotres*/
 * {
   font-family: 'Yantramanav', sans-serif !important;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato;
 }
 
 h2 {
@@ -16,9 +28,9 @@ span {
   color: tomato;
 }
 
-h4 {
-  color: whitesmoke;
-  font-weight: bold;
+.foto {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 .contFoto {
@@ -54,6 +66,50 @@ p {
   font-size: 2.5vh;
 }
 
+/*efecto sobre el texto*/
+.nosotres__fotos__animadas {
+  position: relative;
+}
+
+.foto {
+  opacity: 1;
+  display: block;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.recuadro {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nosotres__fotos__animadas:hover .foto {
+  opacity: 0.3;
+}
+
+.nosotres__fotos__animadas:hover .recuadro {
+  opacity: 1;
+}
+
+.texto {
+  background-color: #00172a;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 32px;
+  border-radius: 10%;
+}
+
 h1 {
   color: whitesmoke;
   font-weight: bold;
@@ -77,6 +133,12 @@ body {
 
 * {
   font-family: 'Yantramanav', sans-serif !important;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato;
 }
 
 #logoPrincipal {
@@ -199,217 +261,45 @@ img {
   width: inherit;
 }
 
-.articulo__parrafo {
-  background-color: #00172f;
-}
-
-.imgA {
+/*animacion parrafos*/
+.artic__cuadro {
   position: relative;
+  width: calc(100%-30px);
+}
+
+.artic__cuadro__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.artic__texto {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
   overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 95.7%;
+  height: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
-.imgA:before, .imgA::after {
-  content: "";
+.artic__cuadro:hover .artic__texto {
+  height: 100%;
+}
+
+.artic__parrafo {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 25px;
   position: absolute;
-  width: calc(100%/30px);
-  z-index: 1;
-}
-
-.imgA:before {
-  left: -100%;
-  top: 10px;
-}
-
-.imgA:after {
-  left: 100%;
-  bottom: 10px;
-}
-
-.imgA:hover:before, .imgA:hover:after {
-  left: 15px;
-}
-
-.imgA .contenedorA {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-align: center;
-  position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 0;
-}
-
-.imgA:hover .contenedorA {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 1;
-}
-
-.imgB {
-  position: relative;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.imgB:before, .imgB::after {
-  content: "";
-  position: absolute;
-  width: calc(100%/30px);
-  z-index: 1;
-}
-
-.imgB:before {
-  left: -100%;
-  top: 10px;
-}
-
-.imgB:after {
-  left: 100%;
-  bottom: 10px;
-}
-
-.imgB:hover:before, .imgB:hover:after {
-  left: 15px;
-}
-
-.imgB .contenedorB {
-  text-align: center;
-  position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 0;
-}
-
-.imgB:hover .contenedorB {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 1;
-}
-
-.imgC {
-  position: relative;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.imgC:before, .imgC::after {
-  content: "";
-  position: absolute;
-  width: calc(100%/30px);
-  z-index: 1;
-}
-
-.imgC:before {
-  left: -100%;
-  top: 10px;
-}
-
-.imgC:after {
-  left: 100%;
-  bottom: 10px;
-}
-
-.imgC:hover:before, .imgC:hover:after {
-  left: 15px;
-}
-
-.imgC .contenedorC {
-  text-align: center;
-  position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 0;
-}
-
-.imgC:hover .contenedorC {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 1;
-}
-
-.imgD {
-  position: relative;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.imgD:before, .imgD::after {
-  content: "";
-  position: absolute;
-  width: calc(100%/30px);
-  z-index: 1;
-}
-
-.imgD:before {
-  left: -100%;
-  top: 10px;
-}
-
-.imgD:after {
-  left: 100%;
-  bottom: 10px;
-}
-
-.imgD:hover:before, .imgD:hover:after {
-  left: 15px;
-}
-
-.imgD .contenedorD {
-  text-align: center;
-  position: absolute;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 0;
-}
-
-.imgD:hover .contenedorD {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  opacity: 1;
-}
-
-.txt1, .txt2, .txt3, .txt4 {
-  text-align: center;
-  top: -4vh;
+  width: 100%;
+  padding: 2vw;
 }
 
 /*rock/a/tlon*/
@@ -432,6 +322,36 @@ img {
 
 .rock1, .rock2 {
   text-align: -webkit-center;
+}
+
+.list-group-item-danger {
+  background-color: #2f4538;
+  color: whitesmoke;
+}
+
+.list-group-item-danger.list-group-item-action:hover {
+  color: forestgreen !important;
+  background-color: #2f4538 !important;
+}
+
+.lista__reproduccion {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.video__container {
+  position: absolute;
+  z-index: -100;
+  width: 100vw;
+  height: 82vh;
+  overflow: hidden;
+}
+
+.video__container video {
+  position: absolute;
+  width: 95vw;
+  left: 2vw;
 }
 
 @media only screen and (min-width: 1200px) {
