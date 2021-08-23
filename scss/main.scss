@@ -13,9 +13,14 @@
         flex-wrap: nowrap;
 
     }
-    
+       
 }
-
+@media only screen and (max-width: 1200px)
+{
+.video__container video {
+    display: none;
+    }
+}
 @media only screen and (max-width: 992px) {
     .fotosNuestras {
         display: flex;
@@ -33,6 +38,11 @@
     #drcontacto {
         width: 90vh;
     }
+    .video__container video {
+        display: none;
+        }
+
+
 }
 
 
@@ -60,5 +70,9 @@
        .articulo__parrafo {
            font-size: 1vh;
        }
+       
+       .video__container video {
+        display: none;
+        }
 
 }

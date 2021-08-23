@@ -6,6 +6,9 @@ h4 {
   font-size: 4vh;
   color: tomato; }
 
+body {
+  background-color: #00172a; }
+
 /*nosotres*/
 * {
   font-family: 'Yantramanav', sans-serif !important; }
@@ -14,6 +17,9 @@ h4 {
   font-weight: bold;
   font-size: 4vh;
   color: tomato; }
+
+body {
+  background-color: #00172a; }
 
 h2 {
   color: tomato;
@@ -90,12 +96,48 @@ h1 {
 h5 {
   color: #ff6347; }
 
-body {
-  background-color: #00172a; }
-
 .badge {
   background-color: red !important;
   font-weight: normal; }
+
+.logo__principal {
+  width: 50vw; }
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden; }
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20%;
+  height: 70%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); }
+
+header .container {
+  position: relative;
+  z-index: 2; }
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1; }
 
 * {
   font-family: 'Yantramanav', sans-serif !important; }
@@ -104,6 +146,9 @@ h4 {
   font-weight: bold;
   font-size: 4vh;
   color: tomato; }
+
+body {
+  background-color: #00172a; }
 
 #logoPrincipal {
   height: 30px;
@@ -270,6 +315,10 @@ img {
   .artic {
     flex-wrap: nowrap; } }
 
+@media only screen and (max-width: 1200px) {
+  .video__container video {
+    display: none; } }
+
 @media only screen and (max-width: 992px) {
   .fotosNuestras {
     display: flex;
@@ -281,7 +330,9 @@ img {
   .contenedorA, .contenedorB, .contenedorC, .contenedorD {
     width: 40vw; }
   #drcontacto {
-    width: 90vh; } }
+    width: 90vh; }
+  .video__container video {
+    display: none; } }
 
 @media only screen and (max-width: 600px) {
   ul {
@@ -301,4 +352,6 @@ img {
   .nosotres__foto {
     text-align: center; }
   .articulo__parrafo {
-    font-size: 1vh; } }
+    font-size: 1vh; }
+  .video__container video {
+    display: none; } }
