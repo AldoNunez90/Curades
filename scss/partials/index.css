@@ -15,6 +15,10 @@ h5 {
   font-weight: normal;
 }
 
+.logo__principal {
+  width: 50vw;
+}
+
 header {
   position: relative;
   background-color: black;
@@ -51,15 +55,4 @@ header .overlay {
   background-color: black;
   opacity: 0.5;
   z-index: 1;
-}
-
-/* Media Query for devices withi coarse pointers and no hover functionality */
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
 }

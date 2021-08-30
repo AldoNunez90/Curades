@@ -3,6 +3,16 @@
   font-family: 'Yantramanav', sans-serif !important;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato;
+}
+
+body {
+  background-color: #00172a;
+}
+
 h2 {
   color: tomato;
   font-weight: bold;

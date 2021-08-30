@@ -2,6 +2,16 @@
   font-family: 'Yantramanav', sans-serif !important;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato;
+}
+
+body {
+  background-color: #00172a;
+}
+
 #logoPrincipal {
   height: 30px;
   width: 30px;

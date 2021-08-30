@@ -1,7 +1,0 @@
-
-Agrego las keywords a todas las páginas, algunos repetidos y varios en particular para cada una. 
-
-Agrego en index el eslogan y badge y un encabezado en contactos para asegurar un h(x) en cada página. 
-
-Modifiqué también los title para que tengan uno singular cada página. 
-
