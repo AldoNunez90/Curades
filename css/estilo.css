@@ -1,10 +1,29 @@
 * {
   font-family: 'Yantramanav', sans-serif !important; }
 
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  top: 5vh;
+  left: 2vw;
+  width: auto; }
+
+h2 {
+  color: tomato;
+  font-weight: bold; }
+
+h3 {
+  color: #00172a;
+  background-color: tomato;
+  font-weight: bold; }
+
 h4 {
   font-weight: bold;
   font-size: 4vh;
   color: tomato; }
+
+h5 {
+  color: #ff6347; }
 
 body {
   background-color: #00172a; }
@@ -13,17 +32,32 @@ body {
 * {
   font-family: 'Yantramanav', sans-serif !important; }
 
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  top: 5vh;
+  left: 2vw;
+  width: auto; }
+
+h2 {
+  color: tomato;
+  font-weight: bold; }
+
+h3 {
+  color: #00172a;
+  background-color: tomato;
+  font-weight: bold; }
+
 h4 {
   font-weight: bold;
   font-size: 4vh;
   color: tomato; }
 
+h5 {
+  color: #ff6347; }
+
 body {
   background-color: #00172a; }
-
-h2 {
-  color: tomato;
-  font-weight: bold; }
 
 span {
   color: tomato; }
@@ -46,11 +80,11 @@ span {
 
 .parrafoN {
   -webkit-user-modify: read-write-plaintext-only;
-  font-size: 3vh; }
+  font-size: 1.7vw; }
 
 p {
   color: whitesmoke;
-  font-size: 2.5vh; }
+  font-size: 2.83333vw; }
 
 /*efecto sobre el texto*/
 .nosotres__fotos__animadas {
@@ -86,6 +120,15 @@ p {
   padding: 16px 32px;
   border-radius: 10%; }
 
+.container__nosotres {
+  align-self: center; }
+  .container__nosotres__img {
+    width: 100%;
+    opacity: 0.8; }
+
+* {
+  font-family: 'Yantramanav', sans-serif !important; }
+
 h1 {
   color: whitesmoke;
   font-weight: bold;
@@ -93,8 +136,25 @@ h1 {
   left: 2vw;
   width: auto; }
 
+h2 {
+  color: tomato;
+  font-weight: bold; }
+
+h3 {
+  color: #00172a;
+  background-color: tomato;
+  font-weight: bold; }
+
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato; }
+
 h5 {
   color: #ff6347; }
+
+body {
+  background-color: #00172a; }
 
 .badge {
   background-color: red !important;
@@ -142,10 +202,29 @@ header .overlay {
 * {
   font-family: 'Yantramanav', sans-serif !important; }
 
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  top: 5vh;
+  left: 2vw;
+  width: auto; }
+
+h2 {
+  color: tomato;
+  font-weight: bold; }
+
+h3 {
+  color: #00172a;
+  background-color: tomato;
+  font-weight: bold; }
+
 h4 {
   font-weight: bold;
   font-size: 4vh;
   color: tomato; }
+
+h5 {
+  color: #ff6347; }
 
 body {
   background-color: #00172a; }
@@ -230,10 +309,35 @@ label {
     border: transparent; }
 
 /*articulos*/
+* {
+  font-family: 'Yantramanav', sans-serif !important; }
+
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  top: 5vh;
+  left: 2vw;
+  width: auto; }
+
+h2 {
+  color: tomato;
+  font-weight: bold; }
+
 h3 {
   color: #00172a;
   background-color: tomato;
   font-weight: bold; }
+
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato; }
+
+h5 {
+  color: #ff6347; }
+
+body {
+  background-color: #00172a; }
 
 img {
   width: inherit; }
@@ -299,17 +403,40 @@ img {
 .lista__reproduccion {
   align-self: center; }
 
-.video__container {
+.disco__container {
   position: absolute;
   z-index: -100;
-  width: 100vw;
-  height: 82vh;
+  width: 100%;
+  height: 178vh;
   overflow: hidden; }
+  .disco__container__disco2 {
+    width: 100vw;
+    position: absolute;
+    height: 89vh; }
+  .disco__container__disco1 {
+    width: 100vw;
+    position: absolute;
+    top: 89vh; }
+  .disco__container__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: 1; }
 
-.video__container video {
-  position: absolute;
-  width: 95vw;
-  left: 2vw; }
+.division__archivo {
+  background-image: none;
+  background-color: dimgray;
+  height: 0.7vh !important; }
+
+.rock__parrafo {
+  background-color: rgba(0, 0, 0, 0.568);
+  padding: 0.3em;
+  margin-bottom: 0 !important;
+  font-size: 1rem; }
 
 @media only screen and (min-width: 1200px) {
   .artic {
@@ -350,8 +477,17 @@ img {
   iframe {
     width: 100%; }
   .nosotres__foto {
-    text-align: center; }
+    text-align: center;
+    flex-direction: column; }
+  .foto {
+    width: 40vw; }
+  .texto {
+    font-size: 14px; }
+  .recuadro {
+    top: 55%; }
   .articulo__parrafo {
     font-size: 1vh; }
   .video__container video {
-    display: none; } }
+    display: none; }
+  .parrafoN {
+    font-size: 4vw; } }

@@ -5,7 +5,7 @@
 @import "./partials/footer.scss";
 @import "./partials/contacto.scss";
 @import "./partials/articulos.scss";
-@import "./partials/archivo.scss";
+@import "./partials/rock-a-tlon.scss";
 
 
 @media only screen and (min-width: 1200px){
@@ -41,8 +41,6 @@
     .video__container video {
         display: none;
         }
-
-
 }
 
 
@@ -66,6 +64,17 @@
        iframe {width: 100%;}
        .nosotres__foto {
            text-align: center;
+           flex-direction: column;
+       }
+       .foto {
+           width: 40vw;
+       }
+       .texto {
+           font-size: 14px;
+           
+       } 
+       .recuadro {
+        top: 55%;
        }
        .articulo__parrafo {
            font-size: 1vh;
@@ -73,6 +82,9 @@
        
        .video__container video {
         display: none;
+        }
+        .parrafoN {
+            font-size: 4vw;
         }
 
 }

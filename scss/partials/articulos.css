@@ -1,8 +1,27 @@
 /*articulos*/
+* {
+  font-family: 'Yantramanav', sans-serif !important;
+}
+
+h2 {
+  color: tomato;
+  font-weight: bold;
+}
+
 h3 {
   color: #00172a;
   background-color: tomato;
   font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 4vh;
+  color: tomato;
+}
+
+body {
+  background-color: #00172a;
 }
 
 img {

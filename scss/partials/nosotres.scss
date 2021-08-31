@@ -1,10 +1,7 @@
 /*nosotres*/
 @import "./variables.scss";
 
-h2 {
-    color: tomato;
-    font-weight: bold;
-}
+
 span {
     color: tomato;
     
@@ -26,7 +23,8 @@ span {
     margin: 3vw;
 }
 .parrafoN {-webkit-user-modify: read-write-plaintext-only;
-font-size: $fuente/5;}
+font-size: $fuente/10;}
+
 p {
     color: whitesmoke;
     font-size: $fuente/6;
@@ -70,4 +68,11 @@ p {
   font-weight: bold;
   padding: 16px 32px;
   border-radius: 10%;
+}
+.container__nosotres {
+  align-self: center;
+  &__img {
+    width: 100%;
+    opacity: 0.8;
+  }
 }

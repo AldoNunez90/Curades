@@ -1,0 +1,72 @@
+/*rock/a/tlon*/
+.rockA a, .rockB a {
+    border-radius: 10px !important;
+    margin: 1vh;
+    padding: 1vh;
+    text-align: center;
+}
+
+.rockB {
+    justify-items: center;
+}
+.list-group-item-action {
+    width: fit-content;
+} 
+.rock1, .rock2 {
+    text-align: -webkit-center;
+}
+
+.list-group-item-danger {
+    background-color: rgb(47, 69, 56);
+    color: whitesmoke;
+}
+.list-group-item-danger.list-group-item-action:hover {
+    color: forestgreen !important;
+    background-color: rgb(47, 69, 56)!important;
+}
+
+.lista__reproduccion {
+    align-self: center;
+}
+
+.disco__container {
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+    height: 178vh;
+    overflow: hidden;   
+        &__disco2 {
+        width: 100vw;
+        position: absolute;
+        height: 89vh;
+        }
+        &__disco1 {
+        width: 100vw;
+        position: absolute;
+        top: 89vh;
+        }   
+        &__overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.6;
+            z-index: 1;
+          }
+}
+.division__archivo {
+    background-image: none;
+    background-color: dimgray;
+    height: 0.7vh !important;
+}
+.rock__parrafo {
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 0.3em;
+    margin-bottom: 0 !important;
+    font-size: 1rem;
+}
+
+
+
