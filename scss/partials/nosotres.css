@@ -40,31 +40,19 @@ span {
   color: tomato;
 }
 
-.contFoto {
+.nosotres__foto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-.nuestra {
-  color: whitesmoke;
-}
-
 .parrafoN {
   -webkit-user-modify: read-write-plaintext-only;
-  font-size: 1.7vw;
-}
-
-p {
   color: whitesmoke;
-  font-size: 2.83333vw;
+  font-size: 1.7vw;
 }
 
 /*efecto sobre el texto*/
@@ -113,6 +101,7 @@ p {
   font-weight: bold;
   padding: 16px 32px;
   border-radius: 10%;
+  background-color: #00172e;
 }
 
 .container__nosotres {

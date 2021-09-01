@@ -1,11 +1,6 @@
 /*articulos*/
 @import "./variables.scss";
 
-img {
-    width: inherit;
-}
-
-
 /*animacion parrafos*/
 
 .artic__cuadro {
@@ -15,9 +10,7 @@ img {
   width: 100%;
   height: auto;
   }
-}
-
-.artic__texto {
+  &__texto {
   position: absolute;
   bottom: 0;
   background-color: black;
@@ -25,13 +18,8 @@ img {
   width: 95.7%;
   height: 0;
   transition: .5s ease;
-}
-
-.artic__cuadro:hover .artic__texto {
-  height: 100%;
-}
-
-.artic__parrafo {
+  }
+  &__parrafo {
     color: whitesmoke;
     font-weight: bold;
     font-size: 2.5vw;
@@ -42,5 +30,9 @@ img {
     text-align: center;
     width: 100%;
     padding: 2vw;
-}
+  }
+  &:hover .artic__cuadro__texto {
+    height: 100%;
+  }
+  }
 

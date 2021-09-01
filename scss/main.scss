@@ -11,17 +11,12 @@
 @media only screen and (min-width: 1200px){
     .artic {
         flex-wrap: nowrap;
+    }
+}
 
-    }
-       
-}
-@media only screen and (max-width: 1200px)
-{
-.video__container video {
-    display: none;
-    }
-}
 @media only screen and (max-width: 992px) {
+    /*  */
+    /* nosotres */
     .fotosNuestras {
         display: flex;
         justify-content: center;
@@ -35,23 +30,33 @@
     h2, .parrafoN {
         padding: 5px;
     }
-    .contenedorA, .contenedorB, .contenedorC, .contenedorD {
-        width: 40vw;
-    }
-    #drcontacto {
-        width: 90vh;
-    }
-    .video__container video {
-        display: none;
-        }
     .container__nosotres__img {
         display: none;
     }
-    .artic__parrafo {
+    .texto {
+        padding: 8px;
+    }
+    /*  contacto  */
+    #drcontacto {
+        width: 90vh;
+    }
+    .correo {
+        width: 70%;
+    }
+       /* articulos */
+
+    .artic__cuadro__parrafo {
         font-size: 4vw;
     }
-    .artic__texto {
+    .artic__cuadro__texto {
         width: 96.7%;
+    }
+        /* r-a-t */
+    .rock1, .rock2 {
+        width: 100%;
+    }
+    .rockA, .rockB {
+        width: 80%;
     }
     .disco__container {
         display: none;
@@ -59,30 +64,36 @@
         .rock__parrafo {
             background-color: unset;
         }
+    .lista__reproduccion {
+        text-align: center;
+    }
+    iframe {
+        width: 80%;
+    }
+    /*barra de navegacion*/
+    .navbar-nav {
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+    }
 }
 
 
 @media only screen and (max-width: 600px) {
+        /*index*/
         .logo__principal {
             width: 100vw;
         }
-        ul {
+        .navbar-nav {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .redes {
-            margin-top: 5px;
-            justify-content: space-evenly;
+        .blog {
+            display: none;
         }
-        .spoti {
-           display: flex;
-           flex-direction: column;
-        }
-        #drcontacto {
-            width: inherit;
-        }
-       iframe {width: 100%;}
+      
+        /* Nosotres */
        .nosotres__foto {
            text-align: center;
            flex-direction: column;
@@ -92,23 +103,44 @@
        }
        .texto {
            font-size: 14px;
-           
-       } 
+        } 
+        .parrafoN {
+            font-size: 4vw;
+        }
+        
        .recuadro {
-        top: 55%;
-       }
-       .artic__parrafo {
-           font-size: 5.5vw;
-       }
-       
+            top: 55%;
+           }  
+        
+        /* Articulos */
+        .artic {
+            justify-content: center;
+        }
+        .artic__cuadro__parrafo {
+        font-size: 5.5vw;
+        }
+        .artic__cuadro__texto{
+        width: 94%;
+        }
+
+           /* rock-a-tlon */        
+        iframe {width: 100%;}
+  
        .disco__container {
         display: none;
         }
         .rock__parrafo {
             background-color: unset;
         }
-        .parrafoN {
-            font-size: 4vw;
+        
+        /*contacto*/
+        .correo {
+            width: 100%;
         }
 
+        /*footer*/
+        .redes {
+            margin-top: 5px;
+            justify-content: space-evenly;
+        }
 }

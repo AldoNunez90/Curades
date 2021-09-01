@@ -1,4 +1,8 @@
 /*rock/a/tlon*/
+.rock1, .rock2 {
+    text-align: -webkit-center;
+}
+
 .rockA a, .rockB a {
     border-radius: 10px !important;
     margin: 1vh;
@@ -9,14 +13,12 @@
 .list-group-item-action {
     width: fit-content;
 } 
-.rock1, .rock2 {
-    text-align: -webkit-center;
-}
 
 .list-group-item-danger {
     background-color: rgb(47, 69, 56);
     color: whitesmoke;
 }
+
 .list-group-item-danger.list-group-item-action:hover {
     color: forestgreen !important;
     background-color: rgb(47, 69, 56)!important;
@@ -49,7 +51,7 @@
             height: 100%;
             width: 100%;
             background-color: black;
-            opacity: 0.6;
+            opacity: 0.7;
             z-index: 1;
           }
 }
@@ -63,6 +65,7 @@
     padding: 0.3em;
     margin-bottom: 0 !important;
     font-size: 1rem;
+    color: whitesmoke;
 }
 
 
