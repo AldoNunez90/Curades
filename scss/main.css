@@ -77,11 +77,6 @@ span {
   color: tomato;
 }
 
-.foto {
-  -webkit-transition-delay: 2s;
-          transition-delay: 2s;
-}
-
 .contFoto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,12 +92,6 @@ span {
 
 .nuestra {
   color: whitesmoke;
-}
-
-.foto {
-  width: 15vw;
-  border-radius: 100%;
-  margin: 3vw;
 }
 
 .parrafoN {
@@ -121,6 +110,11 @@ p {
 }
 
 .foto {
+  width: 15vw;
+  border-radius: 100%;
+  margin: 3vw;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
   opacity: 1;
   display: block;
   -webkit-transition: .5s ease;
@@ -439,7 +433,6 @@ img {
 /*animacion parrafos*/
 .artic__cuadro {
   position: relative;
-  width: calc(100%-30px);
 }
 
 .artic__cuadro__img {
@@ -483,10 +476,6 @@ img {
   margin: 1vh;
   padding: 1vh;
   text-align: center;
-}
-
-.rockB {
-  justify-items: center;
 }
 
 .list-group-item-action {
@@ -604,6 +593,9 @@ img {
   }
   .artic__parrafo {
     font-size: 4vw;
+  }
+  .artic__texto {
+    width: 96.7%;
   }
   .disco__container {
     display: none;
