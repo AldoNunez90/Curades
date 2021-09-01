@@ -2,10 +2,33 @@
   font-family: 'Yantramanav', sans-serif !important;
 }
 
+h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  top: 5vh;
+  left: 2vw;
+  width: auto;
+}
+
+h2 {
+  color: tomato;
+  font-weight: bold;
+}
+
+h3 {
+  color: #00172a;
+  background-color: tomato;
+  font-weight: bold;
+}
+
 h4 {
   font-weight: bold;
   font-size: 4vh;
   color: tomato;
+}
+
+h5 {
+  color: #ff6347;
 }
 
 body {
@@ -23,14 +46,9 @@ body {
 }
 
 hr {
-  background: #00002b;
   background: linear-gradient(40deg, #00002b 0%, tomato 71%, #fcb045 100%);
   height: 1vh !important;
   opacity: 1;
-}
-
-.fondoAzul {
-  background-color: #00172a;
 }
 
 .nav {

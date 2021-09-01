@@ -62,9 +62,6 @@ body {
 span {
   color: tomato; }
 
-.foto {
-  transition-delay: 2s; }
-
 .contFoto {
   display: flex;
   flex-direction: row;
@@ -72,11 +69,6 @@ span {
 
 .nuestra {
   color: whitesmoke; }
-
-.foto {
-  width: 15vw;
-  border-radius: 100%;
-  margin: 3vw; }
 
 .parrafoN {
   -webkit-user-modify: read-write-plaintext-only;
@@ -91,6 +83,10 @@ p {
   position: relative; }
 
 .foto {
+  width: 15vw;
+  border-radius: 100%;
+  margin: 3vw;
+  transition-delay: 2s;
   opacity: 1;
   display: block;
   transition: .5s ease;
@@ -113,7 +109,6 @@ p {
   opacity: 1; }
 
 .texto {
-  background-color: #00172a;
   color: whitesmoke;
   font-size: 16px;
   font-weight: bold;
@@ -238,13 +233,9 @@ body {
   width: 90vw; }
 
 hr {
-  background: #00002b;
   background: linear-gradient(40deg, #00002b 0%, tomato 71%, #fcb045 100%);
   height: 1vh !important;
   opacity: 1; }
-
-.fondoAzul {
-  background-color: #00172a; }
 
 .nav {
   width: auto; }
@@ -344,13 +335,11 @@ img {
 
 /*animacion parrafos*/
 .artic__cuadro {
-  position: relative;
-  width: calc(100%-30px); }
-
-.artic__cuadro__img {
-  display: block;
-  width: 100%;
-  height: auto; }
+  position: relative; }
+  .artic__cuadro__img {
+    display: block;
+    width: 100%;
+    height: auto; }
 
 .artic__texto {
   position: absolute;
@@ -367,7 +356,7 @@ img {
 .artic__parrafo {
   color: whitesmoke;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 2.5vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -382,9 +371,6 @@ img {
   margin: 1vh;
   padding: 1vh;
   text-align: center; }
-
-.rockB {
-  justify-items: center; }
 
 .list-group-item-action {
   width: fit-content; }
@@ -454,14 +440,26 @@ img {
     place-self: center; }
   h4 {
     font-size: 1em; }
+  h2, .parrafoN {
+    padding: 5px; }
   .contenedorA, .contenedorB, .contenedorC, .contenedorD {
     width: 40vw; }
   #drcontacto {
     width: 90vh; }
   .video__container video {
-    display: none; } }
+    display: none; }
+  .container__nosotres__img {
+    display: none; }
+  .artic__parrafo {
+    font-size: 4vw; }
+  .disco__container {
+    display: none; }
+  .rock__parrafo {
+    background-color: unset; } }
 
 @media only screen and (max-width: 600px) {
+  .logo__principal {
+    width: 100vw; }
   ul {
     display: flex;
     flex-direction: column;
@@ -485,9 +483,11 @@ img {
     font-size: 14px; }
   .recuadro {
     top: 55%; }
-  .articulo__parrafo {
-    font-size: 1vh; }
-  .video__container video {
+  .artic__parrafo {
+    font-size: 5.5vw; }
+  .disco__container {
     display: none; }
+  .rock__parrafo {
+    background-color: unset; }
   .parrafoN {
     font-size: 4vw; } }

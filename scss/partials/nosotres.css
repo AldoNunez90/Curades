@@ -40,11 +40,6 @@ span {
   color: tomato;
 }
 
-.foto {
-  -webkit-transition-delay: 2s;
-          transition-delay: 2s;
-}
-
 .contFoto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,12 +55,6 @@ span {
 
 .nuestra {
   color: whitesmoke;
-}
-
-.foto {
-  width: 15vw;
-  border-radius: 100%;
-  margin: 3vw;
 }
 
 .parrafoN {
@@ -84,6 +73,11 @@ p {
 }
 
 .foto {
+  width: 15vw;
+  border-radius: 100%;
+  margin: 3vw;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
   opacity: 1;
   display: block;
   -webkit-transition: .5s ease;
@@ -114,7 +108,6 @@ p {
 }
 
 .texto {
-  background-color: #00172a;
   color: whitesmoke;
   font-size: 16px;
   font-weight: bold;

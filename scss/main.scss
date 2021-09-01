@@ -32,6 +32,9 @@
     h4 {
         font-size: 1em;
     }
+    h2, .parrafoN {
+        padding: 5px;
+    }
     .contenedorA, .contenedorB, .contenedorC, .contenedorD {
         width: 40vw;
     }
@@ -41,10 +44,25 @@
     .video__container video {
         display: none;
         }
+    .container__nosotres__img {
+        display: none;
+    }
+    .artic__parrafo {
+        font-size: 4vw;
+    }
+    .disco__container {
+        display: none;
+        }
+        .rock__parrafo {
+            background-color: unset;
+        }
 }
 
 
 @media only screen and (max-width: 600px) {
+        .logo__principal {
+            width: 100vw;
+        }
         ul {
             display: flex;
             flex-direction: column;
@@ -76,12 +94,15 @@
        .recuadro {
         top: 55%;
        }
-       .articulo__parrafo {
-           font-size: 1vh;
+       .artic__parrafo {
+           font-size: 5.5vw;
        }
        
-       .video__container video {
+       .disco__container {
         display: none;
+        }
+        .rock__parrafo {
+            background-color: unset;
         }
         .parrafoN {
             font-size: 4vw;
